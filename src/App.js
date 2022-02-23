@@ -1,15 +1,27 @@
-
 import './App.css';
-//komponentler bura gelecek
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Navbar from './components/Navbar'
+import Navbar from './Components/Navbar';
+import Aboutme from './Components/Aboutme';
+import Header from './Components/Header'
+import Experience from './Components/Experience'
+import Myproject from './Components/Myproject';
+import Aboutprojects from './Components/Aboutprojects';
+import Teacher from './Components/Teacher'
 
-function App() {
-  return (
+
+
+
+function App(){
+  return(
     <>
-    <Navbar />
+  <Navbar />
+  <Header />
+  <Aboutme />
+  <Experience />
+  <Myproject />
+  <Aboutprojects />
+  <Teacher />
     </>
-  );
+  )
 }
-
 export default App;
